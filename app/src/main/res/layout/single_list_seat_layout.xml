@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:background="#BEAFBF"
+android:layout_height="100dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/floor_message"
+    android:textColor="@color/colorAccent"
+    android:textSize="25dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:fontFamily="cursive"
+    android:textStyle="italic|bold"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:textSize="15dp"
+        android:id="@+id/year_card_list"
+        android:layout_marginLeft="20dp"
+       android:textColor="#F44410"
+        />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/home" />
+
+</android.support.v7.widget.CardView>

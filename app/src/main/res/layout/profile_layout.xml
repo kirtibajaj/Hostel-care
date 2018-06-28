@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    xmlns:tools="http://schemas.android.com/tools">
+    <include layout="@layout/profile_header" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:id="@+id/add_permission_request"
+        android:layout_height="50dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="180dp"
+        android:background="#000"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <ListView
+        android:id="@+id/list_activities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="186dp"
+        android:clipToPadding="false"
+        android:minWidth="200dp"
+        android:background="#000"
+        android:padding="0dp"
+        android:foregroundGravity="clip_horizontal"
+        android:dividerHeight="10dp"></ListView>
+</RelativeLayout>
+

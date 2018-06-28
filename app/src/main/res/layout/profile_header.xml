@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#AEB6BF"
+    android:layout_height="@dimen/nav_header_height"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_height="64dp"
+        android:layout_width="79dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="64dp"
+        app:srcCompat="@drawable/iconperson"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginTop="170dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000"
+        android:text="Name: Kirti"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="200dp"
+        android:textColor="#000"
+        android:text="Room no: 307B"/>
+
+
+
+</RelativeLayout>

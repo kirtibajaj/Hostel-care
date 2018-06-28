@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+    android:background="@drawable/bg"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="120dp"
+    android:id="@+id/problem_type"
+    android:hint="Problem Type"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/Problem_statement"
+    android:hint="Problem Statement"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/duration"
+    android:hint="Duration"
+    android:inputType="number"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/submit_issue"
+    android:text="SUBMIT"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+    android:textStyle="bold|italic"
+    android:textColor="#000"/>
+</LinearLayout>

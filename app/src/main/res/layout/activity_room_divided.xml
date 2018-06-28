@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:text="Room A"
+        android:id="@+id/rooma"
+        android:background="#BB8FCE"/>
+
+    <Button
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:id="@+id/roomb"
+        android:textAlignment="center"
+        android:text="Room B"
+        android:background="#EC7063"
+
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+         android:id="@+id/roomc"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:text="Room C"
+        android:background="#2ECC71"
+        android:layout_marginTop="300dp"/>
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:hint="Code"
+        android:id="@+id/code_room"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:text="SUBMIT"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:id="@+id/submit_room_select"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        />
+
+</RelativeLayout>
+
